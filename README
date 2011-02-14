@@ -1,0 +1,10 @@
+BEScreen for the Sparrow Framework
+Brian Ensor
+brianensorapps.com
+
+1. Drag BEScreen.h and .m into your Sparrow project
+
+2. Add to your header file
+#import "BEScreen.h"
+
+3. Thats it! Hope you like it.
