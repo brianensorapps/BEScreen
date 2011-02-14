@@ -58,15 +58,15 @@
 }
 
 + (BEScreen *)screenWithOrientation:(int)orientation rotates:(BOOL)rotates allowAllOrientations:(BOOL)allowAllOrientations {
-	return [[[self alloc] initWithOrientation:orientation rotates:rotates allowAllOrientations:allowAllOrientations] autorelease];
+	return [[[BEScreen alloc] initWithOrientation:orientation rotates:rotates allowAllOrientations:allowAllOrientations] autorelease];
 }
 
 + (BEScreen *)screenWithOrientation:(int)orientation rotates:(BOOL)rotates {
-	return [[[self alloc] initWithOrientation:orientation rotates:rotates] autorelease];
+	return [[[BEScreen alloc] initWithOrientation:orientation rotates:rotates] autorelease];
 }
 
 + (BEScreen *)screenWithOrientation:(int)orientation {
-	return [[[self alloc] initWithOrientation:orientation] autorelease];
+	return [[[BEScreen alloc] initWithOrientation:orientation] autorelease];
 }
 
 - (void)onOrientationChange:(NSNotification *)notification {
