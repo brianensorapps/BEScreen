@@ -20,11 +20,15 @@ typedef enum {
 	int mOrientation;
 	BOOL mRotates;
 	BOOL mAllowAllOrientations;
+	float mCurrentWidth;
+	float mCurrentHeight;
 }
 
 @property (nonatomic, assign) int orientation;
 @property (nonatomic, assign) BOOL rotates;
 @property (nonatomic, assign) BOOL allowAllOrientations;
+@property (nonatomic, readonly) float currentWidth;
+@property (nonatomic, readonly) float currentHeight;
 
 - (id)initWithOrientation:(int)orientation rotates:(BOOL)rotates allowAllOrientations:(BOOL)allowAllOrientations;
 - (id)initWithOrientation:(int)orientation rotates:(BOOL)rotates;
