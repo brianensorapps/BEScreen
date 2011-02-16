@@ -1,0 +1,622 @@
+TBEScreen Demo
+v7
+r0
+t319570820.127606
+cCheck dependencies
+cProcessInfoPlistFile "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/Info.plist" Application-Info.plist
+cProcessPCH /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch.gch Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/main.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/ApplicationDelegate.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/Game.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo" normal i386
+cGenerateDSYMFile "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app.dSYM" "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo"
+cTouch "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPAnimatable.h
+c000000004D3C771E0000000000000399
+t1295808286
+s921
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPAudioEngine.h
+c000000004D3C771E0000000000000999
+t1295808286
+s2457
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPBitmapChar.h
+c000000004D3C771E00000000000006A7
+t1295808286
+s1703
+i<Foundation/Foundation.h>
+i"SPImage.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPBitmapFont.h
+c000000004D3C771E0000000000000BA0
+t1295808286
+s2976
+i<Foundation/Foundation.h>
+i"SPBitmapChar.h"
+i"SPTextField.h"
+i"SPMacros.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPButton.h
+c000000004D3C771E0000000000000E1A
+t1295808286
+s3610
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPDelayedInvocation.h
+c000000004D3C771E00000000000006A1
+t1295808286
+s1697
+i<Foundation/Foundation.h>
+i"SPAnimatable.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPDisplayObject.h
+c000000004D3C771E0000000000001A72
+t1295808286
+s6770
+i<Foundation/Foundation.h>
+i"SPEventDispatcher.h"
+i"SPRectangle.h"
+i"SPMatrix.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPDisplayObjectContainer.h
+c000000004D3C771E0000000000000ED6
+t1295808286
+s3798
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPEnterFrameEvent.h
+c000000004D3C771E000000000000065E
+t1295808286
+s1630
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPEvent.h
+c000000004D3C771E0000000000000B8C
+t1295808286
+s2956
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPEventDispatcher.h
+c000000004D3C771E0000000000000B7D
+t1295808286
+s2941
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPGLTexture.h
+c000000004D3C771E0000000000000830
+t1295808286
+s2096
+i<Foundation/Foundation.h>
+i"SPTexture.h"
+i"SPMacros.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPImage.h
+c000000004D3C771E0000000000000827
+t1295808286
+s2087
+i<Foundation/Foundation.h>
+i"SPQuad.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPJuggler.h
+c000000004D3C771E0000000000000B25
+t1295808286
+s2853
+i<Foundation/Foundation.h>
+i"SPAnimatable.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPMacros.h
+c000000004D3C771E0000000000000658
+t1295808286
+s1624
+i<Foundation/Foundation.h>
+i<math.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPMatrix.h
+c000000004D3C771E0000000000000A79
+t1295808286
+s2681
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPMovieClip.h
+c000000004D3C771E0000000000001137
+t1295808286
+s4407
+i<Foundation/Foundation.h>
+i"SPSprite.h"
+i"SPTexture.h"
+i"SPAnimatable.h"
+i"SPImage.h"
+i"SPSoundChannel.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPNSExtensions.h
+c000000004D3C771E00000000000004B6
+t1295808286
+s1206
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPPoint.h
+c000000004D3C771E00000000000008A3
+t1295808286
+s2211
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPPoolObject.h
+c000000004D3C771E000000000000083A
+t1295808286
+s2106
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPQuad.h
+c000000004D3C771E0000000000000A36
+t1295808286
+s2614
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPRectangle.h
+c000000004D3C771E000000000000088F
+t1295808286
+s2191
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+i"SPPoint.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPRenderSupport.h
+c000000004D3C771E0000000000000909
+t1295808286
+s2313
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPRenderTexture.h
+c000000004D3C771E0000000000000C4F
+t1295808286
+s3151
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"SPDisplayObject.h"
+i"SPTexture.h"
+i"SPRenderSupport.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSound.h
+c000000004D3C771E00000000000008C4
+t1295808286
+s2244
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSoundChannel.h
+c000000004D3C771E00000000000007AB
+t1295808286
+s1963
+i<Foundation/Foundation.h>
+i"SPSound.h"
+i"SPEventDispatcher.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSprite.h
+c000000004D3C771E0000000000000501
+t1295808286
+s1281
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPStage.h
+c000000004D3C771E0000000000000BD4
+t1295808286
+s3028
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSubTexture.h
+c000000004D3C771E0000000000000607
+t1295808286
+s1543
+i<Foundation/Foundation.h>
+i"SPTexture.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTextField.h
+c000000004D3C771E00000000000015A0
+t1295808286
+s5536
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+i"SPMacros.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTexture.h
+c000000004D3C771E0000000000001383
+t1295808286
+s4995
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTextureAtlas.h
+c000000004D3C771E0000000000000E87
+t1295808286
+s3719
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTouch.h
+c000000004D3C771E0000000000000E8A
+t1295808286
+s3722
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTouchEvent.h
+c000000004D3C771E0000000000000C22
+t1295808286
+s3106
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+i"SPTouch.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTransitions.h
+c000000004D3C771E0000000000000ABF
+t1295808286
+s2751
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTween.h
+c000000004D3C771E0000000000001064
+t1295808286
+s4196
+i<Foundation/Foundation.h>
+i"SPEventDispatcher.h"
+i"SPAnimatable.h"
+i"SPTransitions.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPUtils.h
+c000000004D3C771E00000000000002E5
+t1295808286
+s741
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPView.h
+c000000004D3C771E0000000000000815
+t1295808286
+s2069
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/Sparrow.h
+c000000004D3C771E0000000000000433
+t1295808286
+s1075
+i"SPNSExtensions.h"
+i"SPEventDispatcher.h"
+i"SPDisplayObject.h"
+i"SPDisplayObjectContainer.h"
+i"SPQuad.h"
+i"SPImage.h"
+i"SPTextField.h"
+i"SPBitmapFont.h"
+i"SPButton.h"
+i"SPStage.h"
+i"SPSprite.h"
+i"SPMovieClip.h"
+i"SPTexture.h"
+i"SPSubTexture.h"
+i"SPRenderTexture.h"
+i"SPGLTexture.h"
+i"SPTextureAtlas.h"
+i"SPEvent.h"
+i"SPTouchEvent.h"
+i"SPEnterFrameEvent.h"
+i"SPJuggler.h"
+i"SPTransitions.h"
+i"SPTween.h"
+i"SPDelayedInvocation.h"
+i"SPRectangle.h"
+i"SPMacros.h"
+i"SPUtils.h"
+i"SPView.h"
+i"SPRenderSupport.h"
+i"SPAudioEngine.h"
+i"SPSound.h"
+i"SPSoundChannel.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/build/Debug-iphonesimulator/libSparrow.a
+c000000004D5C0A9E00000000000F8BF8
+t1297877662
+s1018872
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Application_Prefix.pch
+c000000004D233AC100000000000000D8
+t1294154433
+s216
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Sparrow.h"
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.h
+c000000004D5882870000000000000137
+t1297646215
+s311
+i<UIKit/UIKit.h>
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m
+c000000004D5C0B960000000000000622
+t1297877910
+s1570
+i"ApplicationDelegate.h"
+i"Game.h"
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.h
+c000000004D5AB0A60000000000000516
+t1297789094
+s1302
+i<Foundation/Foundation.h>
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m
+c000000004D5B25BC0000000000001A4C
+t1297819068
+s6732
+i"BEScreen.h"
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.h
+c000000004D5882080000000000000115
+t1297646088
+s277
+i<Foundation/Foundation.h>
+i"BEScreen.h"
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m
+c000000004D5C0C110000000000000799
+t1297878033
+s1945
+i"Game.h"
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/ApplicationDelegate.o
+t1297878019
+s57108
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen Demo.LinkFileList
+c000000004D5C0C020000000000000247
+t1297878018
+s583
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen.o
+t1297878019
+s31804
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/Game.o
+t1297878019
+s17252
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/main.o
+t1297878019
+s6500
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app
+t1297878020
+s170
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app.dSYM
+t1297878020
+s102
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo
+t1297878020
+s380264
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/Info.plist
+t1297878018
+s615
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/PkgInfo
+t1297878018
+s8
+
+N/Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m
+c000000004CBA1C7E000000000000017A
+t1287265406
+s378
+i<UIKit/UIKit.h>
+
+N/var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch.gch
+t1297878019
+s16839824
+
+NApplication-Info.plist
+c000000004CBA1C7E000000000000037C
+t1287265406
+s892
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319570818#319570818#0(0"0(0#1#0"8627050912#0"0#
+
+CCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/ApplicationDelegate.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319570819.730737
+e319570819.843204
+r1
+xCompileC
+xbuild/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/ApplicationDelegate.o
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m319570819#319570819#0(0"0(0#0#75"/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m8624676928#1819"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/BEScreen Demo.hmap" -F/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources/i386" "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch -c /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/ApplicationDelegate.m -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/ApplicationDelegate.o"0#
+
+CCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319570819.843306
+e319570819.970030
+r1
+xCompileC
+xbuild/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen.o
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m319570819#319570819#0(0"0(0#0#64"/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m8611066880#1797"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/BEScreen Demo.hmap" -F/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources/i386" "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch -c /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/BEScreen.m -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen.o"0#
+
+CCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/Game.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319570819.786093
+e319570819.903514
+r1
+xCompileC
+xbuild/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/Game.o
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m319570819#319570819#0(0"0(0#0#60"/Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m8623473440#1789"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/BEScreen Demo.hmap" -F/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources/i386" "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch -c /Users/brian/Dropbox/Github/BEScreen/Demo/src/Classes/Game.m -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/Game.o"0#
+
+CCompileC "build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/main.o" /Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319570819.729678
+e319570819.785988
+r1
+xCompileC
+xbuild/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/main.o
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m319570819#319570819#0(0"0(0#0#52"/Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m8610077440#1781"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/BEScreen Demo.hmap" -F/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources/i386" "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch -c /Users/brian/Dropbox/Github/BEScreen/Demo/src/main.m -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/main.o"0#
+
+CGenerateDSYMFile "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app.dSYM" "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo"
+s319570820.052505
+e319570820.121401
+r1
+xGenerateDSYMFile
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app.dSYM
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo
+lSLF07#2@131"GenerateDSYMFile "build/Debug-iphonesimulator/BEScreen Demo.app.dSYM" "build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo"319570820#319570820#0(0"0(0#0#105"/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo8625265472#426"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo" -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app.dSYM"0#
+
+CLd "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo" normal i386
+s319570819.970126
+e319570820.052409
+r1
+xLd
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo
+xnormal
+xi386
+lSLF07#2@110"Link /Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo319570819#319570820#0(0"0(0#0#0"8596525056#1177"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -F/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -filelist "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/Objects-normal/i386/BEScreen Demo.LinkFileList" -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 /Users/brian/Documents/sparrow/sparrow/src/build/Debug-iphonesimulator/libSparrow.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AVFoundation -framework AudioToolbox -framework OpenAL -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/BEScreen Demo"0#
+
+CProcessInfoPlistFile "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/Info.plist" Application-Info.plist
+s319570818.392607
+e319570818.395469
+r1
+xProcessInfoPlistFile
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/Info.plist
+xApplication-Info.plist
+lSLF07#2@30"Process Application-Info.plist319570818#319570818#0(0"0(0#0#68"/Users/brian/Dropbox/Github/BEScreen/Demo/src/Application-Info.plist8624602272#520"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Application-Info.plist -genpkginfo "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app/Info.plist"0#
+
+CProcessPCH /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch.gch Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319570818.395569
+e319570819.729350
+r1
+xProcessPCH
+x/var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch.gch
+xApplication_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Application_Prefix.pch319570818#319570819#0(0"0(0#0#68"/Users/brian/Dropbox/Github/BEScreen/Demo/src/Application_Prefix.pch8624088544#1656"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/BEScreen Demo.hmap" -F/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources/i386" "-I/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/BEScreen Demo.build/Debug-iphonesimulator/BEScreen Demo.build/DerivedSources" -c /Users/brian/Dropbox/Github/BEScreen/Demo/src/Application_Prefix.pch -o /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-ezltiwsabcdvwtbjhtvggyolcjte/Application_Prefix.pch.gch0#
+
+CTouch "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app"
+s319570820.121486
+e319570820.127556
+r1
+xTouch
+x/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app
+lSLF07#2@97"Touch /Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app319570820#319570820#0(0"0(0#0#0"8624314848#300"    cd /Users/brian/Dropbox/Github/BEScreen/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/brian/Dropbox/Github/BEScreen/Demo/src/build/Debug-iphonesimulator/BEScreen Demo.app"0#
+

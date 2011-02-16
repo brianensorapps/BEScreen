@@ -48,11 +48,15 @@
 				break;
 		}
 		if (mRotates) {
-			[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onOrientationChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
-			[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+			[self performSelector:@selector(beginListening) withObject:nil afterDelay:.5];
 		}
 	}
 	return self;
+}
+
+- (void)beginListening {
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onOrientationChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
+	[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
 }
 
 - (id)initWithOrientation:(int)orientation rotates:(BOOL)rotates {
