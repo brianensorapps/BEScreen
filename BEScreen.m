@@ -19,39 +19,44 @@
 		mOrientation = orientation;
 		mRotates = rotates;
 		mAllowAllOrientations = allowAllOrientations;
-		switch (mOrientation) {
-			case BEScreenOrientationPortrait:
-				self.rotation = SP_D2R(0);
-				self.x = 0;
-				self.y = 0;
-				[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortrait;
-				break;
-			case BEScreenOrientationPortraitUpsideDown:
-				self.rotation = SP_D2R(180);
-				self.x = self.stage.width;
-				self.y = self.stage.height;
-				[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortraitUpsideDown;
-				break;
-			case BEScreenOrientationLandscapeRight:
-				self.rotation = SP_D2R(90);
-				self.x = self.stage.width;
-				self.y = 0;
-				[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeRight;
-				break;
-			case BEScreenOrientationLandscapeLeft:
-				self.rotation = SP_D2R(-90);
-				self.x = 0;
-				self.y = self.stage.height;
-				[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
-				break;
-			default:
-				break;
-		}
-		if (mRotates) {
-			[self performSelector:@selector(beginListening) withObject:nil afterDelay:.5];
-		}
+		[self addEventListener:@selector(addedToStage:) atObject:self forType:SP_EVENT_TYPE_ADDED_TO_STAGE];
 	}
 	return self;
+}
+
+- (void)addedToStage:(SPEvent *)event {
+	[self removeEventListener:@selector(addedToStage:) atObject:self forType:SP_EVENT_TYPE_ADDED_TO_STAGE];
+	switch (mOrientation) {
+		case BEScreenOrientationPortrait:
+			self.rotation = SP_D2R(0);
+			self.x = 0;
+			self.y = 0;
+			[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortrait;
+			break;
+		case BEScreenOrientationPortraitUpsideDown:
+			self.rotation = SP_D2R(180);
+			self.x = self.stage.width;
+			self.y = self.stage.height;
+			[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortraitUpsideDown;
+			break;
+		case BEScreenOrientationLandscapeRight:
+			self.rotation = SP_D2R(90);
+			self.x = self.stage.width;
+			self.y = 0;
+			[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeRight;
+			break;
+		case BEScreenOrientationLandscapeLeft:
+			self.rotation = SP_D2R(-90);
+			self.x = 0;
+			self.y = self.stage.height;
+			[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
+			break;
+		default:
+			break;
+	}
+	if (mRotates) {
+		[self performSelector:@selector(beginListening) withObject:nil afterDelay:0];
+	}
 }
 
 - (void)beginListening {
