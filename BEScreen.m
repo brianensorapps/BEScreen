@@ -60,8 +60,8 @@
 }
 
 - (void)beginListening {
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onOrientationChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
 	[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onOrientationChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 
 - (id)initWithOrientation:(int)orientation rotates:(BOOL)rotates {
@@ -90,42 +90,53 @@
 		{
 			case UIInterfaceOrientationPortrait:
 				if (mAllowAllOrientations || mOrientation == BEScreenOrientationPortraitUpsideDown) {
-					self.rotation = SP_D2R(0);
-					self.x = 0;
-					self.y = 0;
-					[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortrait;
-					mOrientation = BEScreenOrientationPortrait;
+					if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationPortrait) {
+						self.rotation = SP_D2R(0);
+						self.x = 0;
+						self.y = 0;
+						[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortrait;
+						mOrientation = BEScreenOrientationPortrait;
+                        [self dispatchEvent:[SPEvent eventWithType:BE_SCREEN_EVENT_ORIENTATIONCHANGED]];
+					}
 				}
 				break;
 			case UIInterfaceOrientationPortraitUpsideDown:
 				if (mAllowAllOrientations || mOrientation == BEScreenOrientationPortrait) {
-					self.rotation = SP_D2R(180);
-					self.x = self.stage.width;
-					self.y = self.stage.height;
-					[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortraitUpsideDown;
-					mOrientation = BEScreenOrientationPortraitUpsideDown;
+					if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationPortraitUpsideDown) {
+						self.rotation = SP_D2R(180);
+						self.x = self.stage.width;
+						self.y = self.stage.height;
+						[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortraitUpsideDown;
+						mOrientation = BEScreenOrientationPortraitUpsideDown;
+                        [self dispatchEvent:[SPEvent eventWithType:BE_SCREEN_EVENT_ORIENTATIONCHANGED]];
+					}
 				}
 				break;
 			case UIInterfaceOrientationLandscapeRight:
 				if (mAllowAllOrientations || mOrientation == BEScreenOrientationLandscapeLeft) {
-					self.rotation = SP_D2R(90);
-					self.x = self.stage.width;
-					self.y = 0;
-					[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeRight;
-					mOrientation = BEScreenOrientationLandscapeRight;
+					if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationLandscapeRight) {
+						self.rotation = SP_D2R(90);
+						self.x = self.stage.width;
+						self.y = 0;
+						[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeRight;
+						mOrientation = BEScreenOrientationLandscapeRight;
+                        [self dispatchEvent:[SPEvent eventWithType:BE_SCREEN_EVENT_ORIENTATIONCHANGED]];
+					}
 				}
 				break;
 			case UIInterfaceOrientationLandscapeLeft:
 				if (mAllowAllOrientations || mOrientation == BEScreenOrientationLandscapeRight) {
-					self.rotation = SP_D2R(-90);
-					self.x = 0;
-					self.y = self.stage.height;
-					[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
-					mOrientation = BEScreenOrientationLandscapeLeft;
+					if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationLandscapeLeft) {
+						self.rotation = SP_D2R(-90);
+						self.x = 0;
+						self.y = self.stage.height;
+						[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
+						mOrientation = BEScreenOrientationLandscapeLeft;
+                        [self dispatchEvent:[SPEvent eventWithType:BE_SCREEN_EVENT_ORIENTATIONCHANGED]];
+					}
 				}
 				break;
 		}
-		[self dispatchEvent:[SPEvent eventWithType:BE_SCREEN_EVENT_ORIENTATIONCHANGED]];
 	}
 }
 
